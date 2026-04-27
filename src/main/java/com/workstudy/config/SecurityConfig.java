@@ -42,6 +42,7 @@ public class SecurityConfig {
             "http://localhost:3001",
             "http://localhost:5173",
             "https://workstudy-frontend.onrender.com",
+            "https://workstudy-frontend.vercel.app",
             "http://localhost:8080"
         ));
         config.setAllowedMethods(List.of("GET","POST","PUT","DELETE","OPTIONS"));
